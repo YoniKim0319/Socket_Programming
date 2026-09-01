@@ -1,5 +1,7 @@
 # Telematics Routing PoC
 
+This project extends a TCP socket programming exercise originally completed for a **Data Communications and Networking** course by applying it to a simplified **telematics messaging scenario**. The original client-server communication exercise was expanded to include message-type-specific queueing policies, priority-based transmission, and reconnection/retry handling.
+
 A small C++ learning project that demonstrates **priority-based routing of telematics-style messages over TCP sockets** and verifies that messages can be retained and retransmitted when the network connection is interrupted.
 
 The client handles three types of data with different priorities and queueing policies:
